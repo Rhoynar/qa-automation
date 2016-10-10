@@ -35,6 +35,7 @@ public class LoginSteps {
     @Then("^I am able to see the main page$")
     public void i_am_able_to_go_main_page() throws Throwable {
         log.info("Then: I am able to see the main page");
+        loginPage.verifyMainPage();
     }
 
 }
