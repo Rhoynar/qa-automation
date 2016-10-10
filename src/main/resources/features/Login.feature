@@ -1,7 +1,7 @@
 Feature: Login Module
   Test Login module functionality
 
-  Scenario: Login into gmail
-    Given Main page is loaded
-    When I login into the webpage
-    Then I am able to go main page
+  Scenario: Login into yahoo
+    Given Browser is open
+    When I login into yahoo mail
+    Then I am able to see the main page

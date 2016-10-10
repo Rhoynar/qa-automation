@@ -1,4 +1,4 @@
-package com.rhoynar.qa.utils;
+package com.rhoynar.qa.framework;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -11,7 +11,7 @@ import java.io.FileInputStream;
 import java.nio.file.Paths;
 
 /**
- * Created by Harsh on 9/14/16.
+ * Created by harsh on 7/7/2016.
  */
 public class ExcelUtils {
 
@@ -57,5 +57,4 @@ public class ExcelUtils {
             return null;
         }
     }
-
 }

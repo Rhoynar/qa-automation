@@ -1,4 +1,4 @@
-package com.rhoynar.qa.utils;
+package com.rhoynar.qa.framework;
 
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;

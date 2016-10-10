@@ -1,4 +1,4 @@
-package com.rhoynar.qa.utils;
+package com.rhoynar.qa.framework;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
