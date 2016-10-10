@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!-- suite/test/classes||groups   -->
+<suite name="AllTestsSuite" verbose="1">
+
+    <!-- To Run individual feature file:
+         Provide the runner name here. -->
+    <test name="LoginTest">
+        <classes>
+            <class name="com.rhoynar.qa.runners.LoginFeatureRunner" />
+        </classes>
+    </test>
+
+    <!-- To Run All feature files available
+         Provide AllFeatureRunner, which picks up all feature files -->
+    <test name="AllTest">
+        <classes>
+            <class name="com.rhoynar.qa.runners.AllFeaturesRunner" />
+        </classes>
+    </test>
+</suite>
