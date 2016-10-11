@@ -8,10 +8,11 @@ This project comes fully integrated with Selenium WebDriver, Behavior Driven Dev
 mvn clean test
 ```
 
+
 The project already contains sample test files which can be edited and modified according to user needs.
+
 ---
 
-# Components
 ## WebApp Framework
 The project contains a java class for Web application management - this could include browser management, login/logout management, cookie management, loading databases etc. I usually treat WebApp as the framework from which I can create other Page Objects that allow me to do specific page object functionalities.
 
